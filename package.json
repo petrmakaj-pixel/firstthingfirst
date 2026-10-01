@@ -1,0 +1,13 @@
+{
+  "name": "qa-ai-playwright-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated checkout test built with AI assistance (Claude) using Playwright.",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
